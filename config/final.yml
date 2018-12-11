@@ -1,0 +1,6 @@
+name: alertmanager-slack-template
+blobstore:
+ provider: s3
+   options:
+     bucket_name: alertmanager-slack-template
+     region: ap-northeast-1

@@ -1,0 +1,7 @@
+---
+name: alertmanager-slack-template
+
+dependencies: []
+
+files:
+- alertmanager-slack-template/alertmanager-slack-template.tmpl
