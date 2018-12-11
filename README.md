@@ -1,4 +1,4 @@
-# Pretty alertmanager notify Slack message
+# Prettify Slack notify message
 **W.I.P**
 
 Synagy to [prometheus-boshrelease](https://github.com/bosh-prometheus/prometheus-boshrelease)
