@@ -1,0 +1,23 @@
+- type: replace
+  path: /releases/-
+  value:
+    name: alertmanager-slack-template
+    version: latest
+
+- type: replace
+  path: /instance_groups/name=alertmanager/jobs/-
+  value:
+    release: alertmanager-slack-template
+    name: alertmanager-slack-template
+
+- type: replace
+  path: /instance_groups/name=alertmanager/jobs/name=alertmanager/properties/alertmanager/receivers/name=default/slack_configs/0/title?
+  value: '{{ template "custom_title" . }}'
+
+- type: replace
+  path: /instance_groups/name=alertmanager/jobs/name=alertmanager/properties/alertmanager/receivers/name=default/slack_configs/0/text?
+  value: '{{ template "custom_slack_message" . }}'
+
+- type: replace
+  path: /instance_groups/name=alertmanager/jobs/name=alertmanager/properties/alertmanager/templates?/-
+  value: /var/vcap/packages/alertmanager-slack-template/alertmanager-slack-template.tmpl
