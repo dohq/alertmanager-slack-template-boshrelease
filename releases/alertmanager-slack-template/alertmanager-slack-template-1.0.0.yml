@@ -1,0 +1,15 @@
+name: alertmanager-slack-template
+version: 1.0.0
+commit_hash: 78ce178
+uncommitted_changes: false
+jobs:
+- name: alertmanager-slack-template
+  version: 04ab3b0007b6b3015616e5c94808521147a77c16
+  fingerprint: 04ab3b0007b6b3015616e5c94808521147a77c16
+  sha1: dab8b729e6932c71e854f61b1191332e822f795f
+packages:
+- name: alertmanager-slack-template
+  version: e7aa67eccd64877bd96b08c064fcd32fad7fa30f
+  fingerprint: e7aa67eccd64877bd96b08c064fcd32fad7fa30f
+  sha1: a6801f068ebc55058038e411b8664ef186fe69a1
+  dependencies: []
