@@ -20,4 +20,4 @@
 
 - type: replace
   path: /instance_groups/name=alertmanager/jobs/name=alertmanager/properties/alertmanager/templates?/-
-  value: /var/vcap/packages/alertmanager-slack-template/alertmanager-slack-template.tmpl
+  value: /var/vcap/jobs/alertmanager-slack-template/alertmanager-slack-template.tmpl

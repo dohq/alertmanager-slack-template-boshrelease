@@ -1,3 +1,0 @@
-set -e
-
-cp -r alertmanager-slack-template/* ${BOSH_INSTALL_TARGET}

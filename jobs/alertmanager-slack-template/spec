@@ -1,9 +1,9 @@
 ---
 name: alertmanager-slack-template
 
-templates: {}
+templates:
+  alertmanager-slack-template.tmpl: alertmanager-slack-template.tmpl
 
-packages:
-- alertmanager-slack-template
+packages: []
 
 properties: {}
