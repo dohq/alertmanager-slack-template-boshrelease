@@ -1,0 +1,9 @@
+name: alertmanager-slack-template
+version: v1.1.0
+commit_hash: 3b60308
+uncommitted_changes: false
+jobs:
+- name: alertmanager-slack-template
+  version: e7d631ca3ab3c14855ab4f8941ce62b5d20f011e
+  fingerprint: e7d631ca3ab3c14855ab4f8941ce62b5d20f011e
+  sha1: e13e826694bbd021a60994570d42a27873f2908d
