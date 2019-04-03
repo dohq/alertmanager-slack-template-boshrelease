@@ -1,0 +1,5 @@
+- type: replace
+  path: /releases/-
+  value:
+    name: alertmanager-slack-template
+    version: latest
